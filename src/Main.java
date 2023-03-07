@@ -48,7 +48,7 @@ public class Main {
         int years = 1;
         while (years <= 10) {
             population = (int) (population + population * birthrate - population * mortality);
-            System.out.println("Год " + years + " численность населения составляет " + population);
+            System.out.println("Год " + years + "  численность населения составляет " + population);
             years = years + 1;
         }
 
