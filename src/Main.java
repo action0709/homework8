@@ -91,7 +91,7 @@ public class Main {
         System.out.println("Задача 7");
         // Пишем код для задачи 7
        int friday = 3;
-       for (int i=1;i<31;i++){
+       for (int i=1;i<=31;i++){
            if (i==friday){
                System.out.println("Сегодня пятница, "+i+"-е число. Необходимо подготовить отчет.");
                       friday=friday+7;}
