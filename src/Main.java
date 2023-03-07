@@ -42,12 +42,12 @@ public class Main {
         System.out.println("Задача 3");
         // Пишем код для задачи 3
         System.out.println();
-        float population = 12_000_000L;
+        int population = 12_000_000;
         float birthrate = 17 / 1000F;
         float mortality = 8 / 1000F;
         int years = 1;
         while (years <= 10) {
-            population = population + population * birthrate - population * mortality;
+            population = (int) (population + population * birthrate - population * mortality);
             System.out.println("Год " + years + " численность населения составляет " + population);
             years = years + 1;
         }
